@@ -9,6 +9,7 @@ This repository is the official implementation of the paper AttenScribble: Atten
 2. The scribble annotations of ACDC have been released in [ACDC scribbles](https://vios-s.github.io/multiscale-adversarial-attention-gates/data). 
 3. The pre-processed ACDC data used for training could be directly downloaded from [ACDC_dataset](https://github.com/HiLab-git/WSL4MIS/tree/main/data/ACDC).
 
+The processed ACDC data also can downloaded from [Google drive](https://drive.google.com/drive/folders/1bGmNCbNPrMuFqWVSQeR_1tDsrB7nKFAu?usp=drive_link).
 ## Requirements
 
 Some important required packages include:
@@ -36,3 +37,4 @@ test_acdc.sh
 ```
 
 # Todo...
+check the code
