@@ -2,11 +2,12 @@ device=7
 task="acdc"
 num_classes=4
 ignore_index=4
-root_path="/data/yangqinzhu/data/2023/2023-scribbleAtten/BetterScribble/WSL4MIS/data/ACDC"
+root_path="./data/ACDC"
 fold="fold1"
 
 model="unetformer"
-test_chpt="path_to/unetformer_best_model.pth"
+# test_chpt="path_to/unetformer_best_model.pth"
+test_chpt="../checkpoint/e10_acdc_unetformer_spscribble_asrrw_affrrw_wcrf0.1_wacrf0.1_waff0.0_was0.0_castrue_caftrue_tftrue_stffalse_gacrfytrue_gacrfktrue_exstrue_ct0_lr0.01_alr0.01_fdfold1/unetformer_best_model.pth"
 
 is_test_save=false
 

@@ -18,7 +18,7 @@ from utils.losses import DiceLoss, get_mask_by_radius, cams_to_affinity_label, g
 from utils.gate_crf_loss import ModelLossSemsegGatedCRF
 from utils.attn_gate_crf_loss import pre_compute_xy_mask, AttnGatedCRFV2
 from utils.attn_gate_crf_loss import AttnGatedCRF
-from miccai_config import gen_config
+from main_config import gen_config
 from dataloaders.data_factory import data_factory
 
 import warnings

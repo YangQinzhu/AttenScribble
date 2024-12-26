@@ -7,8 +7,9 @@ from utils.main_eval import Tester
 
 def data_factory(args):
     if args.task == "acdc":
-        # spacing_json="/data/tianmu/data/BetterScribble/WSL4MIS/data/ACDC/spacing_info.json"
-        spacing_json="path_to_/data/ACDC/spacing_info.json"
+        
+        # spacing_json="path_to_/data/ACDC/spacing_info.json"
+        spacing_json="./data/ACDC/spacing_info.json"
         ds_class = BaseDataSets
         tfm_class = RandomGenerator
         cl_fun = collate
